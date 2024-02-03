@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Electron App",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "bun serve-app"
+        }
+    ]
+}

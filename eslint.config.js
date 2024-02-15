@@ -30,6 +30,7 @@ export default [
         },
         rules: {
             "@typescript-eslint/adjacent-overload-signatures": "warn",
+            "@typescript-eslint/consistent-type-imports": "warn",
             "@typescript-eslint/no-extra-non-null-assertion": "warn",
             "@typescript-eslint/no-inferrable-types": "warn",
             "@typescript-eslint/no-loss-of-precision": "warn",

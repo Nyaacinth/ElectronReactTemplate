@@ -1,5 +1,5 @@
-import react from "@vitejs/plugin-react-swc"
 import path from "node:path"
+import react from "@vitejs/plugin-react-swc"
 import { defineConfig } from "vite"
 import electron from "vite-plugin-electron/simple"
 

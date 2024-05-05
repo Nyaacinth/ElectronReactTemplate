@@ -1,10 +1,11 @@
 {
-    "productName": "Naria",
+    "$schema": "https://raw.githubusercontent.com/electron-userland/electron-builder/master/packages/app-builder-lib/scheme.json",
     "appId": "work.nyaacinth.naria",
     "asar": true,
+    "productName": "Naria",
     "directories": {
-        "buildResources": "resources",
-        "output": "release/${version}"
+        "output": "release/${version}",
+        "buildResources": "resources"
     },
     "files": ["dist", "dist-electron"],
     "mac": {
